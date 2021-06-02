@@ -1,6 +1,6 @@
 import pandas as pd
 
-def fredrequests (series,api,startdate,enddate):
+def fredrequests (series,api,enddate="9999-12-31",startdate="1776-07-04"):
     name = series
     key = api
     start = startdate
